@@ -1,0 +1,1 @@
+const SINGLETON_ENTITY_ID: felt252 = 0;
