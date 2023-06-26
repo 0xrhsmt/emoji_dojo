@@ -1,3 +1,6 @@
+# 🚨 Current Status
+
+Under Development. Therefore, there are many parts that do not work.
 
 # Emoji Dojo
 
