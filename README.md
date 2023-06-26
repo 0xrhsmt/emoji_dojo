@@ -19,10 +19,10 @@ Follow the steps below to setup and run your first Autonomous World.
 Start by cloning the repository to your local machine. Open your terminal and type the following command:
 
 ```bash
-git clone https://github.com/dojoengine/dojo-starter.git
+git clone https://github.com/0xrhsmt/emoji_dojo.git
 ```
 
-This command will create a local copy of the Dojo Starter repository.
+This command will create a local copy of the Emoji Dojor repository.
 
 ### Step 2: Install `dojoup`
 
@@ -34,30 +34,12 @@ curl -L https://install.dojoengine.org | bash
 
 The command downloads the `dojoup` installation script and executes it.
 
-### Step 3: Build the Example World
+### Step 3: Test the Example World
 
-With `dojoup` installed, you can now build your example world using the following command:
-
-```bash
-sozo build
-```
-
-This command compiles your project and prepares it for execution.
-
-### Step 4: Start Katana RPC
-
-[Katana RPC](https://book.dojoengine.org/framework/katana/overview.html) is the communication layer for your Dojo World. It allows different components of your world to communicate with each other. To start Katana RPC, use the following command:
+With `dojoup` installed, you can now test your example world using the following command:
 
 ```bash
-katana --allow-zero-max-fee
-```
-
-### Step 5: Migrate (Deploy) the World
-
-Finally, deploy your world using the `sozo migrate` command. This command, deploys your world to Katana!
-
-```bash
-sozo migrate
+sozo test
 ```
 
 Congratulations! You've successfully setup and deployed your first Dojo Autonomous World.
@@ -123,22 +105,3 @@ Congratulations! You now have `10` remaining moves! You've made it this far, kee
 ### Next steps:
 
 Make sure to read the [Offical Dojo Book](https://book.dojoengine.org/index.html) for detailed instructions including theory and best practices.
-
----
-
-## Contribution
-
-Your contributions are always welcome and appreciated. Following are the things you can do to contribute to this project:
-
-1. **Report a Bug**
-    - If you think you have encountered a bug, and we should know about it, feel free to report it [here](https://github.com/dojoengine/dojo-starter/issues) and we will take care of it.
-
-2. **Request a Feature**
-    - You can also request for a feature [here](https://github.com/dojoengine/dojo-starter/issues), and if it's viable, it will be picked for development.
-
-3. **Create a Pull Request**
-    - It can't get better then this, your pull request will be appreciated by the community.
-
-For any other questions, feel free to reach out to us [here](https://dojoengine.org/contact).
-
-Happy coding!
