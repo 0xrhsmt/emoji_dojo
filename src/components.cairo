@@ -1,5 +1,3 @@
-use array::ArrayTrait;
-
 mod encounter;
 mod encounter_trigger;
 mod map;
